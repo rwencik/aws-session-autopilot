@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; }
+  body { margin: 0; width: 314px; padding: 20px; font: 13px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: #edf4fb; background: linear-gradient(142deg,#162f42 0%,#0a1827 72%); }
+  .top { display:flex; align-items:center; gap:13px; }
+  .logo { width:52px; height:52px; object-fit:contain; }
+  .eyebrow { font-size:10px; font-weight:750; letter-spacing:.12em; color:#9eafbf; text-transform:uppercase; }
+  h1 { font-size:17px; margin:2px 0 0; line-height:1.2; letter-spacing:-.02em; }
+  .line { height:1px; background:rgba(222,236,250,.12); margin:17px 0 15px; }
+  .status { display:flex; align-items:center; gap:9px; color:#c7f7d8; font-weight:700; }
+  .dot { width:9px; height:9px; border-radius:50%; background:#48dc90; box-shadow:0 0 0 4px rgba(72,220,144,.12); }
+  p { margin:9px 0 0; color:#aab9c6; line-height:1.55; }
+  .flow {display:flex;align-items:center; justify-content:center;gap:8px; margin-top:17px;padding:11px 12px; background:rgba(244,250,255,.055); border:1px solid rgba(244,250,255,.08); border-radius:12px;font-size:11px;color:#d9e7f3;font-weight:600;}
+  .arrow {color:#ffa12b;font-size:17px;}
+  .footer { margin-top:13px; font-size:10px; color:#8398aa; text-align:center; }
+</style>
+</head>
+<body>
+ <div class="top">
+  <img class="logo" src="icons/icon128.png" alt="AWS Session FIFO logo">
+  <div><div class="eyebrow">Multi-account autopilot</div><h1>AWS Session FIFO</h1></div>
+ </div>
+ <div class="line"></div>
+ <div class="status"><span class="dot"></span>Always on</div>
+ <p>Manages the five-session limit in the background. No setup, no account list, no buttons.</p>
+ <div class="flow"><span>Oldest out</span><span class="arrow">→</span><span>Next account in</span></div>
+ <div class="footer">v0.8 · Automatic mode</div>
+</body>
+</html>
